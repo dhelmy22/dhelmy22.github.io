@@ -51,6 +51,18 @@ body{
 .aboutPage{
     margin-left: 25px;
 }
+#experience{
+    text-align: left;
+}
+#exSpan{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    margin-top: 28rem;
+    background-color: lightgrey;
+    font-size: larger;
+}
 
 
 /*,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, Projects Page,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
@@ -93,8 +105,9 @@ body{
     margin-left: 35em;
     margin-top: 10rem;
     display: inline-block;
-    width: 50rem;
-    height: 200 rem;
+    width: 25rem;
+    height: 25rem;
+    
     text-align: center;
 }
 
