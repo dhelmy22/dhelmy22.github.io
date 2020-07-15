@@ -1,0 +1,163 @@
+body{
+    
+    background-image:linear-gradient(to right, white, grey );
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hello{
+    
+    width: 50rem;
+    color: grey;
+    text-align: center;
+    margin: auto;
+    margin-top: 15rem;position: relative;
+    animation-name: greeting;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes greeting {
+    0%   {color:lightgrey; }
+    25%  {color:#F2B441; }
+    50%  {color:#3C5973; }
+    75%  {color:#F2913D;}
+    100% {color:black;}
+  }
+
+
+#backgroundPic{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: -20px;
+    text-decoration-color: lightgrey;
+}
+
+#backImg{
+    width: 100%;
+    height: 100%;
+    /* margin-top: inherit; */
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
+
+.aboutPage{
+    margin-left: 25px;
+}
+
+
+/*,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, Projects Page,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+.card{
+  
+    background-color: lightgrey;
+    border-radius: 3rem;
+    box-shadow: inset 50px 50px 50px 50px grey;
+    z-index: 1;
+
+    
+}
+.card :hover{
+    transform: translate3d(0, 5px, 0);
+}
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Bootstrap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.container{
+    max-width: 100%;
+    margin: auto;
+}
+.navbar{
+    display: flexbox;
+}
+.containerOne{
+    margin: auto;
+    text-align: center;
+    margin-left: 3rem;
+}
+.containerOne h2{
+    text-decoration: underline;
+}
+.containerTwo{
+    margin: auto;
+    text-align: center;
+    margin-left: 15rem;
+    margin-top: 3rem;
+}
+#contactForm{
+    margin-left: 35em;
+    margin-top: 10rem;
+    display: inline-block;
+    width: 50rem;
+    height: 200 rem;
+    text-align: center;
+}
+
+
+
+
+/* #while{
+    width: 500px;
+    float: right;
+    margin-right: 50px;
+    margin-top: -150px;
+    font-size: larger;
+}
+#whileTwo{
+    width: 500px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 75px; 
+    text-decoration: none;
+    font-size: larger;
+}
+#whileThree{
+    width: 500px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 150px;
+    font-size: larger;
+} */
+/* 
+
+.project{
+    margin-left: 25px;
+}
+.projectLinkButton{
+    color: white;
+    border-radius: 10px;
+    font-size: large;
+    background-color: black;
+    text-decoration: none;
+    width: auto;
+    padding: 10px 10px 10px 10px;
+    opacity: .5; 
+    
+}
+.contact{
+    margin-left: 25px;
+}
+.contacttLinkButton{
+    color: white;
+    border-radius: 10px;
+    font-size: large;
+    background-color: black;
+    text-decoration: none;
+    width: auto;
+    padding: 10px 10px 10px 10px;
+    opacity: .5; 
+    
+}
+#hire{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-left: 350px; */
+    
+    
+/* } */
